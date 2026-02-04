@@ -1,0 +1,12 @@
+{
+	"title": "刀剑神域",
+	"author": "(原作:川原砾)",
+	"setting": {
+		"papersize": "b5paper"
+	},
+	"filelist": {
+		"../SAO/刀剑神域小说1-18卷/": {
+			"add": ["../Sword Art Online WEB版 Alicization篇主线/Sword Art Online WEB版 终章.org"]
+		}
+	}
+}

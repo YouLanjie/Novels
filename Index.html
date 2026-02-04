@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="author" content="不要在意我的头像QwQ" />
+<meta name="description" content="关于一些脚本实现的额外功能使用说明" />
+<meta name="generator" content="Org Mode (third party program by python)" />
+<title>小说资源使用说明（自我吹嘘）</title>
+<script type="text/javascript" src="/theme/main.js" defer></script>
+<link rel="stylesheet" type="text/css" href="/theme/main.css"/>
+<link rel="shortcut icon" href="/img/icon.jpg"/>
+<script>
+window.MathJax = { tex: { ams: { multlineWidth: '85%' }, tags: 'ams', tagSide: 'right', tagIndent: '.8em' },
+chtml: { scale: 1.0, displayAlign: 'center', displayIndent: '0em' },
+svg: { scale: 1.0, displayAlign: 'center', displayIndent: '0em' },
+output: { font: 'mathjax-modern', displayOverflow: 'overflow' } };
+</script>
+<script id="MathJax-script" async src="/theme/tex-mml-chtml.js"></script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="#"> UP </a>
+ |
+ <a accesskey="H" href="/"> HOME </a>
+</div>
+<div id="content" class="content">
+<h1 class="title">小说资源使用说明（自我吹嘘）</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul><li><a href="#org-title-1">1. 简介</a></li><li><a href="#org-title-2">2. 食用方法</a></li><li><a href="#org-title-3">3. 效果</a></li></ul></div></div>
+<div id="outline-container-1" class="outline-2">
+<h2 id="org-title-1"><span class="section-number-2">1.</span> 简介</h2>
+<div class="outline-text-2" id="text-1"><p>所有程序均存放在<a href="./../../lib/python/">.<i>../../lib/python</i></a>即submodule里。下面逐个介绍：</p><ul class="org-ul">
+<li><a href="./../../lib/python/split_novel.py">split_novel.py</a>: 根据配置，按卷分割合集式txt小说文件排成org文件（用于构造blog用）
+</li>
+<li><p><a href="./../../lib/python/merge2tex.py">merge2tex.py</a>: 根据配置，将org文件合并成一个使用了缩印模板的tex文件以用xelatex生成pdf文件进行打印</p>
+</li></ul>
+</div></div>
+<div id="outline-container-2" class="outline-2">
+<h2 id="org-title-2"><span class="section-number-2">2.</span> 食用方法</h2>
+<div class="outline-text-2" id="text-2"><ol class="org-ol">
+<li>确保拥有 <b>等线Light</b> 字体（Windows自带）
+</li>
+<li>克隆整个仓库（包括submodule）
+</li>
+<li>生成org文件树：
+<ol class="org-ol">
+<li>下载好一个符合要求的txt文件（例如<a href="./无职/无职转生～到了异世界就拿出真本事～.txt">无职的这个文件</a>）
+</li>
+<li><p>使用split_novel.py生成默认的配置json文件：</p>
+<div class="org-src-container"><pre class="src src-shell">split_novel.py<span class="w"> </span>-C<span class="w"> </span>&gt;<span class="w"> </span>目标文件.json
+</pre></div>
+</li>
+<li><p>根据实际情况删除保持默认配置的选项并编辑需要更改的配置使程序能恰当地分割章节文件，以及设置字符串替换列表将不同译名或者错字、繁体字统一替换，例如</p>
+<div class="org-src-container"><pre class="src src-json"><span class="p">{</span>
+<span class="w">	</span><span class="nt">&quot;source_file&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;./无职转生～到了异世界就拿出真本事～.txt&quot;</span><span class="p">,</span>
+<span class="w">	</span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;无职转生&quot;</span><span class="p">,</span>
+<span class="w">	</span><span class="nt">&quot;comment&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<span class="w">	</span><span class="nt">&quot;words&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;鲁迪鸟斯&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;鲁迪乌斯&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;卢迪&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;鲁迪&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;洛克希&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;洛琪希&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;艾丽丝&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;艾莉丝&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;米格尔多&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;米格路德&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;瑞杰尔德&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;瑞杰路德&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;奥尔斯蒂德&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;奥尔斯帝德&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;爱莎&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;爱夏&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;艾丽娜莉兹&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;艾莉娜丽洁&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;莉兹&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;丽洁&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;基司&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;基斯&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;飞利浦&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;菲利普&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;艾丽爱尔&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;爱丽儿&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;阿苏拉&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;阿斯拉&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;格瑞拉特&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;格雷拉特&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;身分&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;身份&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;计画&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;计划&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;徵&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;征&quot;</span><span class="w"> </span><span class="p">],</span>
+<span class="w">		</span><span class="p">[</span><span class="w"> </span><span class="s2">&quot;乾&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;干&quot;</span><span class="w"> </span><span class="p">]</span>
+<span class="w">	</span><span class="p">]</span>
+<span class="p">}</span>
+</pre></div>
+</li>
+<li><p>指定配置文件运行程序：</p>
+<div class="org-src-container"><pre class="src src-shell">split_novel.py<span class="w"> </span>-c<span class="w"> </span>目标文件.json
+</pre></div>
+<p>如果没有问题那应该会生成一堆org文件：</p>
+<div class="org-src-container"><pre class="src src-text">.
+├── 001_第一卷 幼年期.org
+├── 002_第二卷 少年期 家庭教师篇.org
+├── 003_第三卷 少年期 冒险者入门篇.org
+├── 004_第四卷 少年期冒险者入门篇.org
+├── 005_第五卷 少年期 再会篇.org
+├── 006_第六卷 少年期 归乡篇.org
+├── 007_第七卷 青少年期 中坚冒险者篇.org
+├── 008_第八卷 青少年期 学园篇（前）.org
+├── 009_第九卷 青少年期 学园篇（后）.org
+├── 010_第十卷 青少年期 新婚篇.org
+├── 011_第十一卷 青少年期 妹妹篇.org
+├── 012_第十二卷 青少年期 迷宫篇.org
+├── 013_第十三卷 青少年期 日常篇.org
+├── 014_第十四卷 青少年期 召唤篇.org
+├── 015_第十五卷 青少年期 人神篇.org
+├── 016_第十六卷 青年期 阿斯拉王国篇（前）.org
+├── 017_第十七卷 青年期 阿斯拉王国篇（后）.org
+├── 018_第十八卷 青年期 部下篇.org
+├── 019_第十九卷 札诺巴篇.org
+├── 020_第20.5卷 web版.org
+├── 021_第二十一卷 青年期 克里夫篇 web版.org
+├── 022_第二十二卷 组织编 web版.org
+├── 023_第二十三卷 青年期 决战篇 web版.org
+├── 024_第二十四卷 完结编 web版.org
+├── config.json
+└── 无职转生～到了异世界就拿出真本事～.txt
+
+1 directory, 26 files
+</pre></div>
+</li></ol>
+</li>
+<li>生成tex文件：
+<ol class="org-ol">
+<li><p>使用merge2tex.py生成默认的配置json文件：</p>
+<div class="org-src-container"><pre class="src src-shell">merge2tex.py<span class="w"> </span>-C<span class="w"> </span>&gt;<span class="w"> </span>目标文件.json
+</pre></div>
+</li>
+<li><p>根据实际情况删除保持默认配置的选项并编辑需要更改的配置(诸如标题、作者、纸张类型、字号、输入目录、黑白名单等)例如:</p>
+<div class="org-src-container"><pre class="src src-json"><span class="p">{</span>
+<span class="w">	</span><span class="nt">&quot;title&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;无职转生&quot;</span><span class="p">,</span>
+<span class="w">	</span><span class="nt">&quot;author&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;(原作:不讲理不求人（理不尽な孫の手）)&quot;</span><span class="p">,</span>
+<span class="w">	</span><span class="nt">&quot;setting&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">		</span><span class="nt">&quot;papersize&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;b5paper&quot;</span>
+<span class="w">	</span><span class="p">},</span>
+<span class="w">	</span><span class="nt">&quot;filelist&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">		</span><span class="nt">&quot;../无职/&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">{</span>
+<span class="w">			</span><span class="nt">&quot;ignore&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">				</span><span class="s2">&quot;./index.org&quot;</span><span class="p">,</span>
+<span class="w">				</span><span class="s2">&quot;./027_蛇足篇web版补全.org&quot;</span>
+<span class="w">			</span><span class="p">],</span>
+<span class="w">			</span><span class="nt">&quot;add&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">				</span><span class="s2">&quot;./027_蛇足篇web版补全.org::25716&quot;</span>
+<span class="w">			</span><span class="p">]</span>
+<span class="w">		</span><span class="p">}</span>
+<span class="w">	</span><span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+<p>文件名后面加上 <code>::num1-num2</code> 表示只选取num1行到num2行的部分内容（省略num2 意味着选到最后）</p>
+</li>
+<li><p>运行merge2tex.py并指定特定配置文件：</p>
+<div class="org-src-container"><pre class="src src-shell">./merge2tex.py<span class="w"> </span>-i<span class="w"> </span>目标文件.json
+</pre></div>
+<p>输出结果类似：</p>
+<div class="org-src-container"><pre class="src src-text">[INFO] Config:
+{&#39;author&#39;: &#39;(原作:不讲理不求人（理不尽な孫の手）)&#39;,
+ &#39;filelist&#39;: {&#39;../无职/&#39;: {&#39;add&#39;: [&#39;./027_蛇足篇web版补全.org::25716&#39;],
+                         &#39;ignore&#39;: [&#39;./index.org&#39;, &#39;./027_蛇足篇web版补全.org&#39;]}},
+ &#39;output&#39;: &#39;output_#${title}_#${setting.papersize}_#${setting.fontsize}pt_#${template.gtst}.tex&#39;,
+ &#39;setting&#39;: {&#39;border&#39;: {&#39;bindingoffset&#39;: 0.9,
+                        &#39;bottom&#39;: 0.9,
+                        &#39;footskip&#39;: 6.9,
+                        &#39;left&#39;: 0.7,
+                        &#39;right&#39;: 0.7,
+                        &#39;top&#39;: 0.5},
+             &#39;col_gap&#39;: &#39;1mm&#39;,
+             &#39;cols&#39;: 9,
+             &#39;fontname&#39;: &#39;DengXian Light&#39;,
+             &#39;fontsize&#39;: 4,
+             &#39;gen_info&#39;: True,
+             &#39;mktitle&#39;: True,
+             &#39;mktoc&#39;: True,
+             &#39;papersize&#39;: &#39;b5paper&#39;,
+             &#39;ruler&#39;: False,
+             &#39;toc_cols&#39;: 5},
+ &#39;title&#39;: &#39;无职转生&#39;}
+[INFO] searching &#39;../无职&#39;
+[INFO] filelist:
+       - ../无职/001_第一卷 幼年期.org
+       - ../无职/002_第二卷 少年期 家庭教师篇.org
+       - ../无职/003_第三卷 少年期 冒险者入门篇.org
+       - ../无职/004_第四卷 少年期冒险者入门篇.org
+       - ../无职/005_第五卷 少年期 再会篇.org
+       - ../无职/006_第六卷 少年期 归乡篇.org
+       - ../无职/007_第七卷 青少年期 中坚冒险者篇.org
+       - ../无职/008_第八卷 青少年期 学园篇（前）.org
+       - ../无职/009_第九卷 青少年期 学园篇（后）.org
+       - ../无职/010_第十卷 青少年期 新婚篇.org
+       - ../无职/011_第十一卷 青少年期 妹妹篇.org
+       - ../无职/012_第十二卷 青少年期 迷宫篇.org
+       - ../无职/013_第十三卷 青少年期 日常篇.org
+       - ../无职/014_第十四卷 青少年期 召唤篇.org
+       - ../无职/015_第十五卷 青少年期 人神篇.org
+       - ../无职/016_第十六卷 青年期 阿斯拉王国篇（前）.org
+       - ../无职/017_第十七卷 青年期 阿斯拉王国篇（后）.org
+       - ../无职/018_第十八卷 青年期 部下篇.org
+       - ../无职/019_第十九卷 札诺巴篇.org
+       - ../无职/020_第20.5卷 web版.org
+       - ../无职/021_第二十一卷 青年期 克里夫篇 web版.org
+       - ../无职/022_第二十二卷 组织编 web版.org
+       - ../无职/023_第二十三卷 青年期 决战篇 web版.org
+       - ../无职/024_第二十四卷 完结编 web版.org
+       - ../无职/025_蛇足篇1.org
+       - ../无职/026_蛇足篇2.org
+       - ../无职/027_蛇足篇web版补全.org [25716]
+         &gt; ** 爱夏辞去女仆之时
+         &gt; *** 「童话」
+         &gt; 翻译：urishino
+         &gt; 
+         &gt; 很久很久以前，有位名叫亚尔斯的少年。
+       - ../无职/999_非正文内容.org
+[INFO] 输出文件为&#39;output_无职转生_b5paper_4pt_20260111_132120.tex&#39;
+</pre></div>
+</li></ol>
+</li></ol>
+</div></div>
+<div id="outline-container-3" class="outline-2">
+<h2 id="org-title-3"><span class="section-number-2">3.</span> 效果</h2>
+<div class="outline-text-2" id="text-3"><div class="figure">
+<p><img src="./latex/res/example1.webp" alt="./latex/res/example1.webp" /></p>
+<p><span class="figure-number">Figure 1: </span>上述命令输出的效果</p></div><div class="figure">
+<p><img src="./latex/res/example2.webp" alt="./latex/res/example2.webp" /></p>
+<p><span class="figure-number">Figure 2: </span>关键交界处及页脚展示</p></div></div></div></div>
+<div id="postamble" class="status">
+<p class="date">时间: <2026-01-03 六 05:54></p>
+<p class="author">作者: 不要在意我的头像QwQ</p>
+<p class="description">描述: 关于一些脚本实现的额外功能使用说明</p>
+<p class="date">生成于: 2026-01-11 日 13:37:48</p>
+</div>
+</body>
+</html>

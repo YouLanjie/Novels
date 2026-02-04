@@ -1,0 +1,13 @@
+{
+	"title": "我的青春恋爱物语果然有问题",
+	"author": "(原作:渡航)",
+	"setting": {
+		"papersize": "b5paper"
+	},
+	"filelist": {
+		"../春物/": {
+			"ignore": ["./index.org"],
+			"add": []
+		}
+	}
+}

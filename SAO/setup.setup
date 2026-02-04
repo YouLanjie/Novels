@@ -1,0 +1,22 @@
+# -*- mode: org; -*-
+
+#+AUTHOR: (原作:川原砾)
+#+AUTHOR: (译者:见文件)
+#+AUTHOR: (我只是用org格式化了txt文件)
+#+HTML_LINK_HOME: /
+#+html_link_up: ../index.html
+#+LANGUAGE: zh
+
+#+OPTIONS: html-style:t ^:nil
+#+options: H:4
+#+startup: fold
+#+HTML_HEAD: <script type="text/javascript" src="/theme/main.js" defer></script>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/theme/main.css"/>
+#+HTML_HEAD: <link rel="shortcut icon" href="/img/icon.jpg"/>
+
+#+LATEX_COMPILER: xelatex
+#+LATEX_HEADER: \usepackage[UTF8]{ctex}
+#+LATEX_CLASS: book
+#+LATEX_HEADER: \usepackage{geometry}
+#+LATEX_HEADER: \geometry{a4paper, scale=0.8}
+#+LATEX_HEADER: \linespread{1.1}

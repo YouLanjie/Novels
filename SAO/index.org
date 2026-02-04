@@ -1,0 +1,150 @@
+#+TITLE: SAO小说资源索引
+#+date: 2023-04-24 00:00
+#+description: 由于资源有点多所以做了个分页作索引
+
+#+OPTIONS: num:nil
+
+#+setupfile: ../../../setup.setup
+
+* 备注
+我只是在网页文件中对下载来的文件进行了一些修正编辑处理操作，没有干涉原文内容。如
+有翻译错误等问题原因在于文件上游。
+
+在利用org文件重新编辑排版时进行了一些操作，例如为文件增加了章节信息（可以通过目
+录查找），去除了重复的加q群消息头尾，将非正文部分使用quote和center样式圈出，将部
+分译者翻译时添加的夹带有吐槽的 =【】= 内容移动到了footnote方便在宽屏设备上能够直
+接在右侧进行索引查看。
+
+不过文件本身的排版就不算好，我重新编辑工作能够起到的作用有限，所以章节目录等地方
+还是会看起来怪怪的，不怎么和谐。下面对一些文中可能出现的问题进行备注：
+
+- 被 =【】= 包裹的东西应该都是译者额外添加的内容，部分是对翻译后对应文本的原文注
+  释，部分是额外补充，还有部分是译者的吐槽内容。吐槽类的内容尽可能地被我找出移到
+  脚注中去了，其余的补充类的内容则留在原文保持位置不变。
+- 名词 /Bullet of Bullets/ 存在翻译错误被翻译成了 /Barrett of Bullets/
+- Alicization篇后面部分的排版混乱，缺乏类似于 =★　　★　　★= 的划分标记。
+- SAO WEB版 Alicization主线终章的内容18卷没有请自行移步观看
+
+其他关于刀剑神域的问题或许可以去[[https://tieba.baidu.com/p/8986245201#][刀剑神域吧的这个置顶帖子]]去看看。
+
+最后在此对译者的工作表示感谢，也感谢伟大的互联网开源精神。
+* TODO 网页在线阅读
+** 刀剑神域小说1-18卷(文库版)
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域01 艾恩葛朗特.html][（萌动王朝）刀剑神域01 艾恩葛朗特]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域02 艾恩葛朗特.html][（萌动王朝）刀剑神域02 艾恩葛朗特]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域03 妖精之舞 上.html][（萌动王朝）刀剑神域03 妖精之舞 上]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域04 妖精之舞 下.html][（萌动王朝）刀剑神域04 妖精之舞 下]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域05 幽灵子弹 上.html][（萌动王朝）刀剑神域05 幽灵子弹 上]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域06 幽灵子弹 下.html][（萌动王朝）刀剑神域06 幽灵子弹 下]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域07 圣母圣咏.html][（萌动王朝）刀剑神域07 圣母圣咏]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域08 Early and Late.html][（萌动王朝）刀剑神域08 Early and Late]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域09 Alicization篇（1）.html][（萌动王朝）刀剑神域09 Alicization篇（1）]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域10 Alicization篇（2）.html][（萌动王朝）刀剑神域10 Alicization篇（2）]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域11 Alicization篇（3）.html][（萌动王朝）刀剑神域11 Alicization篇（3）]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域12 Alicization篇（4）.html][（萌动王朝）刀剑神域12 Alicization篇（4）]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域13 Alicization篇（5）.html][（萌动王朝）刀剑神域13 Alicization篇（5）]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域14 Alicization篇（6）.html][（萌动王朝）刀剑神域14 Alicization篇（6）]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域15 Alicization篇（7）.html][（萌动王朝）刀剑神域15 Alicization篇（7）]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域16 Alicization篇（8）.html][（萌动王朝）刀剑神域16 Alicization篇（8）]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域17 Alicization篇（9）.html][（萌动王朝）刀剑神域17 Alicization篇（9）]]
+- [[./刀剑神域小说1-18卷/（萌动王朝）刀剑神域18 Alicization篇（10）.html][（萌动王朝）刀剑神域18 Alicization篇（10）]]
+** Sword Art Online WEB版 Alicization篇主线
+- [[./Sword Art Online WEB版 Alicization篇主线/Sword Art Online WEB版 第1章.html][Sword Art Online WEB版 第1章]] 
+- [[./Sword Art Online WEB版 Alicization篇主线/Sword Art Online WEB版 第2章.html][Sword Art Online WEB版 第2章]]
+- [[./Sword Art Online WEB版 Alicization篇主线/Sword Art Online WEB版 第3章.html][Sword Art Online WEB版 第3章]]
+- [[./Sword Art Online WEB版 Alicization篇主线/Sword Art Online WEB版 第4章.html][Sword Art Online WEB版 第4章]]
+- [[./Sword Art Online WEB版 Alicization篇主线/Sword Art Online WEB版 第5章.html][Sword Art Online WEB版 第5章]]
+- [[./Sword Art Online WEB版 Alicization篇主线/Sword Art Online WEB版 第6章.html][Sword Art Online WEB版 第6章]]
+- [[./Sword Art Online WEB版 Alicization篇主线/Sword Art Online WEB版 第7章.html][Sword Art Online WEB版 第7章]]
+- [[./Sword Art Online WEB版 Alicization篇主线/Sword Art Online WEB版 第8章.html][Sword Art Online WEB版 第8章]]
+- [[./Sword Art Online WEB版 Alicization篇主线/Sword Art Online WEB版 终章.html][Sword Art Online WEB版 终章]]
+** Sword Art Online WEB EX版外传
+- [[./Sword Art Online WEB EX版外传/Sword Art Online EX01 黑色剑士.html][./Sword Art Online WEB EX版外传/Sword Art Online EX01 黑色剑士]]
+- [[./Sword Art Online WEB EX版外传/Sword Art Online EX02 Four Days.html][./Sword Art Online WEB EX版外传/Sword Art Online EX02 Four Days]]
+- [[./Sword Art Online WEB EX版外传/Sword Art Online EX03 心之温度.html][./Sword Art Online WEB EX版外传/Sword Art Online EX03 心之温度]]
+- [[./Sword Art Online WEB EX版外传/Sword Art Online EX04 绝剑.html][./Sword Art Online WEB EX版外传/Sword Art Online EX04 绝剑]]
+- [[./Sword Art Online WEB EX版外传/Sword Art Online EX05 圈内事件.html][./Sword Art Online WEB EX版外传/Sword Art Online EX05 圈内事件]]
+- [[./Sword Art Online WEB EX版外传/Sword Art Online EX06 红鼻子麋鹿.html][./Sword Art Online WEB EX版外传/Sword Art Online EX06 红鼻子麋鹿]]
+- [[./Sword Art Online WEB EX版外传/Sword Art Online EX07 月之摇篮.html][./Sword Art Online WEB EX版外传/Sword Art Online EX07 月之摇篮]]
+** Sword Art Online WEB ME版（素材版）
+- [[./Sword Art Online WEB ME版（素材版）/Sword Art Online ME02 Early Characters.html][./Sword Art Online WEB ME版（素材版）/Sword Art Online ME02 Early Characters]]
+- [[./Sword Art Online WEB ME版（素材版）/Sword Art Online ME03 Ceramic Heart.html][./Sword Art Online WEB ME版（素材版）/Sword Art Online ME03 Ceramic Heart]]
+- [[./Sword Art Online WEB ME版（素材版）/Sword Art Online ME04 Cold hand，Warm heart.html][./Sword Art Online WEB ME版（素材版）/Sword Art Online ME04 Cold hand，Warm heart]]
+- [[./Sword Art Online WEB ME版（素材版）/Sword Art Online ME05 鼠尾草.html][./Sword Art Online WEB ME版（素材版）/Sword Art Online ME05 鼠尾草]]
+- [[./Sword Art Online WEB ME版（素材版）/Sword Art Online ME06 阿尔格特的决斗.html][./Sword Art Online WEB ME版（素材版）/Sword Art Online ME06 阿尔格特的决斗]]
+- [[./Sword Art Online WEB ME版（素材版）/Sword Art Online ME07 无星夜的咏叹调.html][./Sword Art Online WEB ME版（素材版）/Sword Art Online ME07 无星夜的咏叹调]]
+- [[./Sword Art Online WEB ME版（素材版）/Sword Art Online ME07 续-无星夜的咏叹调.html][./Sword Art Online WEB ME版（素材版）/Sword Art Online ME07 续-无星夜的咏叹调]]
+- [[./Sword Art Online WEB ME版（素材版）/Sword Art Online ME08 胧幻剑的圆舞曲.html][./Sword Art Online WEB ME版（素材版）/Sword Art Online ME08 胧幻剑的圆舞曲]]
+- [[./Sword Art Online WEB ME版（素材版）/Sword Art Online ME09 黑与白的协奏曲（第1章 未完）.html][./Sword Art Online WEB ME版（素材版）/Sword Art Online ME09 黑与白的协奏曲（第1章 未完）]]
+** TODO COMMENT 刀剑神域WEB版+外传、特典[0/2]
+*** TODO WEB版
+*** TODO 子分类[0/3]
+**** TODO Sword Art Online WEB EX版外传
+**** TODO Sword Art Online WEB ME版（素材版）
+**** TODO Sword Art Online WEB版 Alicization篇主线
+* 下载用文件：
+** TXT源文件（没有后来的 /Unital Ring/ 部分）
+- 压缩包链接：[[./SAO.zip][SAO.zip]]
+- SHA256: =37bd8b487778aaa4f6960628e29ce0094c9bd953cc6e6e9b169043eb15afd87b=
+- 文件目录预览
+  #+begin_src text
+    SAO
+    ├── 刀剑神域小说1-18卷
+    │   ├── （萌动王朝）刀剑神域01 艾恩葛朗特.txt
+    │   ├── （萌动王朝）刀剑神域02 艾恩葛朗特.txt
+    │   ├── （萌动王朝）刀剑神域03 妖精之舞 上.txt
+    │   ├── （萌动王朝）刀剑神域04 妖精之舞 下.txt
+    │   ├── （萌动王朝）刀剑神域05 幽灵子弹 上.txt
+    │   ├── （萌动王朝）刀剑神域06 幽灵子弹 下.txt
+    │   ├── （萌动王朝）刀剑神域07 圣母圣咏.txt
+    │   ├── （萌动王朝）刀剑神域08 Early and Late.txt
+    │   ├── （萌动王朝）刀剑神域09 Alicization篇（1）.txt
+    │   ├── （萌动王朝）刀剑神域10 Alicization篇（2）.txt
+    │   ├── （萌动王朝）刀剑神域11 Alicization篇（3）.txt
+    │   ├── （萌动王朝）刀剑神域12 Alicization篇（4）.txt
+    │   ├── （萌动王朝）刀剑神域13 Alicization篇（5）.txt
+    │   ├── （萌动王朝）刀剑神域14 Alicization篇（6）.txt
+    │   ├── （萌动王朝）刀剑神域15 Alicization篇（7）.txt
+    │   ├── （萌动王朝）刀剑神域16 Alicization篇（8）.txt
+    │   ├── （萌动王朝）刀剑神域17 Alicization篇（9）.txt
+    │   └── （萌动王朝）刀剑神域18 Alicization篇（10）.txt
+    └── 刀剑神域WEB版+外传、特典
+        ├── Sword Art Online 03 The Dead Gun.txt
+        ├── Sword Art Online 刀剑神域 BD特典 短篇.txt
+        ├── Sword Art Online 访谈录.txt
+        ├── Sword Art Online 圣剑篇（攻略成功）.txt
+        ├── Sword Art Online 圣剑篇SS（攻略失败）.txt
+        ├── Sword Art Online 水之音 锤之音.txt
+        ├── Sword Art Online 唯一的究极手段.txt
+        ├── Sword Art Online 在冬天的阳光下.txt
+        ├── Sword Art Online WEB版 Alicization篇主线
+        │   ├── Sword Art Online WEB版 第1章.txt
+        │   ├── Sword Art Online WEB版 第2章.txt
+        │   ├── Sword Art Online WEB版 第3章.txt
+        │   ├── Sword Art Online WEB版 第4章.txt
+        │   ├── Sword Art Online WEB版 第5章.txt
+        │   ├── Sword Art Online WEB版 第6章.txt
+        │   ├── Sword Art Online WEB版 第7章.txt
+        │   ├── Sword Art Online WEB版 第8章.txt
+        │   └── Sword Art Online WEB版 终章.txt
+        ├── Sword Art Online WEB EX版外传
+        │   ├── Sword Art Online EX01 黑色剑士.txt
+        │   ├── Sword Art Online EX02 Four Days.txt
+        │   ├── Sword Art Online EX03 心之温度.txt
+        │   ├── Sword Art Online EX04 绝剑.txt
+        │   ├── Sword Art Online EX05 圈内事件.txt
+        │   ├── Sword Art Online EX06 红鼻子麋鹿.txt
+        │   └── Sword Art Online EX07 月之摇篮.txt
+        └── Sword Art Online WEB ME版（素材版）
+            ├── Sword Art Online ME02 Early Characters.txt
+            ├── Sword Art Online ME03 Ceramic Heart.txt
+            ├── Sword Art Online ME04 Cold hand，Warm heart.txt
+            ├── Sword Art Online ME05 鼠尾草.txt
+            ├── Sword Art Online ME06 阿尔格特的决斗.txt
+            ├── Sword Art Online ME07 无星夜的咏叹调.txt
+            ├── Sword Art Online ME07 续-无星夜的咏叹调.txt
+            ├── Sword Art Online ME08 胧幻剑的圆舞曲.txt
+            └── Sword Art Online ME09 黑与白的协奏曲（第1章 未完）.txt
+
+    6 directories, 51 files
+  #+end_src

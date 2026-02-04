@@ -1,0 +1,14 @@
+{
+	"title": "高中语文古诗词小册",
+	"author": "语文书",
+	"setting": {
+		"papersize": "a4paper",
+		"fontsize": 6.0,
+		"fontname": "DengXian Light",
+		"cols": 5,
+		"toc_cols": 5
+	},
+	"filelist": {
+		"../../Learning/语文/高中语文古诗词.org": {}
+	}
+}

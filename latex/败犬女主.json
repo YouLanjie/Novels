@@ -1,0 +1,13 @@
+{
+	"title": "败犬女主太多了！",
+	"author": "雨森たきび",
+	"setting": {
+		"papersize": "b5paper"
+	},
+	"filelist": {
+		"../败犬女主/": {
+			"ignore": ["./index.org"],
+			"add": []
+		}
+	}
+}

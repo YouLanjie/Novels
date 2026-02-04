@@ -1,0 +1,7 @@
+{
+	"source_file": "./3057.txt",
+	"title": "败犬女主太多了！",
+	"setupfile": "./setup.setup",
+	"section_pattern":"^([^ ]*[章卷节典集].+)$",
+	"comment": "文件下载自轻小说文库，自己去找"
+}

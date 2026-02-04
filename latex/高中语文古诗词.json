@@ -1,0 +1,22 @@
+{
+	"title": "高中语文古诗词小册",
+	"author": "语文书",
+	"setting": {
+		"papersize": "a5paper",
+		"fontsize": 10.0,
+		"fontname": "DengXian Light",
+		"fontname1": "Source Han Sans SC ExtraLight",
+		"fontname2": "Source Han Serif CN VF",
+		"fontname3": "Noto Serif CJK SC",
+		"fontname4": "Noto Sans CJK SC",
+		"cols": 2,
+		"toc_cols": 2,
+		"col_gap": "1em",
+		"newpage": {
+			"toc": true
+		}
+	},
+	"filelist": {
+		"../../Learning/语文/高中语文古诗词.org": {}
+	}
+}
