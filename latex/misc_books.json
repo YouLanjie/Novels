@@ -1,0 +1,13 @@
+{
+	"title": "非系列丛书聚合本",
+	"author": "百家之言",
+	"setting": {
+		"papersize": "b5paper"
+	},
+	"filelist": {
+		"../Other/": {
+			"ignore": ["index.org"],
+			"add": []
+		}
+	}
+}

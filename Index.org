@@ -1,19 +1,18 @@
-#+TITLE: 小说资源使用说明（自我吹嘘）
-#+DESCRIPTION: 关于一些脚本实现的额外功能使用说明
+#+TITLE: 小说相关脚本说明
+#+DESCRIPTION: 关于构建部分小说资源页面用到的脚本和生成latex缩印文件脚本的说明
 #+DATE: <2026-01-03 六 05:54>
 #+SETUPFILE: ../../setup.setup
 
 * 简介
 所有程序均存放在[[./../../lib/python/]]即submodule里。下面逐个介绍：
 - [[./../../lib/python/split_novel.py][split_novel.py]]:
-  根据配置，按卷分割合集式txt小说文件排成org文件（用于构造blog用）
+  根据配置，按卷分割合集式txt小说文件排成org文件（用于构造org文件用）
 - [[./../../lib/python/merge2tex.py][merge2tex.py]]:
   根据配置，将org文件合并成一个使用了缩印模板的tex文件以用xelatex生成pdf文件进行打印
 
 * 食用方法
-1. 确保拥有 *等线Light* 字体（Windows自带）
-2. 克隆整个仓库（包括submodule）
-3. 生成org文件树：
+1. 克隆整个仓库（包括submodule）
+2. 生成org文件树：
    1. 下载好一个符合要求的txt文件（例如[[./无职/无职转生～到了异世界就拿出真本事～.txt][无职的这个文件]]）
    2. 使用split_novel.py生成默认的配置json文件：
       #+begin_src shell
@@ -85,7 +84,7 @@
 
         1 directory, 26 files
       #+end_src
-4. 生成tex文件：
+3. 生成tex文件：
    1. 使用merge2tex.py生成默认的配置json文件：
       #+begin_src shell
         merge2tex.py -C > 目标文件.json
@@ -114,6 +113,9 @@
       #+end_src
       文件名后面加上 =::num1-num2= 表示只选取num1行到num2行的部分内容（省略num2
       意味着选到最后）
+
+      如果使用默认配置请确保拥有 *等线Light* 字体（Windows自带）(，打印出来相对
+      清晰且包含的字符多)
    3. 运行merge2tex.py并指定特定配置文件：
       #+begin_src shell
         ./merge2tex.py -i 目标文件.json

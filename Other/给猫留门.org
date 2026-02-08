@@ -2,7 +2,7 @@
 #+author: 黄咏梅
 #+date: <2025-05-23 (2018)>
 #+description: 原作者黄咏梅，网上找的资料
-#+setupfile: ../../setup.setup
+#+setupfile: ./setup.setup
 
 * 给猫留门
 “豆包回家了。”老沈告诉雅雅，“胖得像一只大熊猫，每层楼的灯都被它踩亮了。
@@ -207,7 +207,7 @@
 
 本文选自黄咏梅《给猫留门》
 
-* Reference
+** Reference
 内容抄自:[[https://www.chinawriter.com.cn/n1/2018/1225/c404017-30486391.html][中国作家网(又引用自微信公众号"作家出版社")]]
 
 作者:黄咏梅
