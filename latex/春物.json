@@ -5,6 +5,7 @@
 		"papersize": "b5paper"
 	},
 	"filelist": {
+		"../春物/index.org::18": {} ,
 		"../春物/": {
 			"ignore": ["./index.org"],
 			"add": []
