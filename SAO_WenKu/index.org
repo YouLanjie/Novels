@@ -1,0 +1,36 @@
+#+title: 类轻小说文库版SAO小说资源索引
+#+description: 更新更多的SAO资源
+#+setupfile: ../../../setup.setup
+
+* 备注
+内容来自网络，依据格式高度统一来看应该是网友备份的轻小说文库的合集txt（1-26卷），剩余的27，28卷为额外补充格式可能有问题
+
+* 文件列表
+- [[./001_第一卷 艾恩葛朗特.html]]
+- [[./002_第二卷 艾恩葛朗特.html]]
+- [[./003_第三卷 妖精之舞.html]]
+- [[./004_第四卷 妖精之舞.html]]
+- [[./005_第五卷 幽灵子弹.html]]
+- [[./006_第六卷 幽灵子弹.html]]
+- [[./007_第七卷 圣母圣咏.html]]
+- [[./008_第八卷 Early and Late.html]]
+- [[./009_第九卷 Alicization Beginning.html]]
+- [[./010_第十卷 Alicization Running.html]]
+- [[./011_第十一卷 Alicization Turning.html]]
+- [[./012_第十二卷 Alicization Rising.html]]
+- [[./013_第十三卷 Alicization Dividing.html]]
+- [[./014_第十四卷 Alicization Uniting.html]]
+- [[./015_第十五卷 Alicization Invading.html]]
+- [[./016_第十六卷 Alicization Exploding.html]]
+- [[./017_第十七卷 Alicization Awakening.html]]
+- [[./018_第十八卷 Alicization Lasting.html]]
+- [[./019_第十九卷 Moon Cradle.html]]
+- [[./020_第二十卷 Moon Cradle.html]]
+- [[./021_第二十一卷 Unital Ring I.html]]
+- [[./022_第二十二卷 Kiss And Fly.html]]
+- [[./023_第二十三卷 Unital Ring Ⅱ.html]]
+- [[./024_第二十四卷 Unital Ring Ⅲ.html]]
+- [[./025_第二十五卷 Unital Ring Ⅳ.html]]
+- [[./026_第二十六卷 Unital Ring V.html]]
+- [[./027_Sword Art Online刀剑神域27 Unital Ring VI.html]]
+- [[./028_刀剑神域 28 Unital ring Ⅶ.html]]
