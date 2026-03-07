@@ -1,0 +1,13 @@
+{
+	"title": "刀剑神域（1-28卷）",
+	"author": "川原砾",
+	"setting": {
+		"papersize": "b5paper",
+		"fontname": "Noto Sans CJK SC Light"
+	},
+	"filelist": {
+		"../SAO_WenKu/": {
+			"ignore": ["./index.org"]
+		}
+	}
+}

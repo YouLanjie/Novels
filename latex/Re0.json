@@ -1,0 +1,12 @@
+{
+	"title": "Re:从零开始的异世界生活",
+	"author": "长月达平",
+	"setting": {
+		"papersize": "b5paper"
+	},
+	"filelist": {
+		"../re0/": {
+			"ignore": ["./index.org"]
+		}
+	}
+}

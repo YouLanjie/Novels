@@ -1,28 +1,12 @@
 {
 	"source_file": "./刀剑神域1-26卷.txt",
 	"title": "刀剑神域",
-	"setupfile": "./setup.setup",
-	"section_pattern": "^[　]*(第.{,5}卷 .*)",
-	"ban_section_pattern": "插图",
-	"comment": "这里用来记录点额外信息，不会对结果产生影响",
-	"process_unicode": true,
-	"strip": true,
+	"section_pattern": "^([^\\s]*(?:第.{,5}卷|特典|短篇|Progressive|同人志) .*)",
 	"words": [
-		[
-			"身分",
-			"身份"
-		],
-		[
-			"计画",
-			"计划"
-		],
-		[
-			"徵",
-			"征"
-		],
-		[
-			"乾",
-			"干"
-		]
+		[ "身分", "身份" ],
+		[ "计画", "计划" ],
+		[ "徵", "征" ],
+		[ "乾", "干" ],
+		[ " *\\*(?: *\\*)*\\n", "★　　★　　★\n" ]
 	]
 }
