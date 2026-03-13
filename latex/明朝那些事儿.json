@@ -1,0 +1,15 @@
+{
+	"title": "明朝那些事儿",
+	"author": "当年明月",
+	"setting": {
+		"papersize": "b5paper",
+		"fontsize": 4.0,
+		"cols": 7,
+		"toc_cols": 5
+	},
+	"filelist": {
+		"../明朝那些事儿（当年明月）/": {
+			"ignore": ["index.org"]
+		}
+	}
+}
