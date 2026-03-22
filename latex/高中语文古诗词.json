@@ -4,7 +4,7 @@
 	"setting": {
 		"papersize": "a5paper",
 		"fontsize": 10.0,
-		"fontname": "DengXian Light",
+		"fontname5": "DengXian Light",
 		"fontname1": "Source Han Sans SC ExtraLight",
 		"fontname2": "Source Han Serif CN VF",
 		"fontname3": "Noto Serif CJK SC",
@@ -12,6 +12,7 @@
 		"cols": 2,
 		"toc_cols": 2,
 		"col_gap": "1em",
+		"ruler": true,
 		"newpage": {
 			"toc": true
 		}

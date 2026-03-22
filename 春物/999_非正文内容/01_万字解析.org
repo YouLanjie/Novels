@@ -1,7 +1,7 @@
 #+title: 非正文内容
-#+HTML_LINK_HOME: /
-#+html_link_up: ../index.html
 #+Author: (知乎)督军上尉
+#+setupfile: ../../setup.setup
+#+html_link_up: ../index.html
 
 * (相关解读)督军上尉：《春物》深度解析
 Author: 督军上尉\\
