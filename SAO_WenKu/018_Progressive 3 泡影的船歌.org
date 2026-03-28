@@ -1,6 +1,7 @@
-#+title: 刀剑神域 Progressive 3
+#+title: 刀剑神域 Progressive 3 泡影的船歌
 #+setupfile: ./setup.setup
-* Progressive 3
+
+* Progressive 3 泡影的船歌
 
 ** 序
 

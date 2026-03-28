@@ -1,6 +1,6 @@
-#+title: 刀剑神域 Progressive 2
+#+title: 刀剑神域 Progressive 2 黑白协奏曲
 #+setupfile: ./setup.setup
-* Progressive 2
+* Progressive 2 黑白协奏曲
 
 ** 第一章
 
@@ -12,7 +12,6 @@
 
 修图：
 
-黑白协奏曲
 
 艾恩葛朗时第三层　二〇二二年十一月
 
