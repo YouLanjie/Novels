@@ -8,6 +8,8 @@
 
 [[https://pan.quark.cn/s/047d46f6d412][资源来源]]（应该）
 
+[[https://re0zero.top/gitbook/book/index.html][RE0 web版资源]]
+
 * 文件列表
 - [[./001_第一卷.html]]
 - [[./002_第二卷.html]]
