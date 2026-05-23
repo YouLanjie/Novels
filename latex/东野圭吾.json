@@ -1,0 +1,15 @@
+{
+	"title": "东野圭吾系列作品集",
+	"author": "东野圭吾",
+	"setting": {
+		"papersize": "b5paper",
+		"fontsize": 4.0,
+		"cols": 7,
+		"toc_cols": 5
+	},
+	"filelist": {
+		"../东野圭吾/": {
+			"ignore": ["./index.org"]
+		}
+	}
+}

@@ -1,15 +1,12 @@
+# -*- mode: org; -*-
+
+#+AUTHOR: (原作:东野圭吾)
 #+HTML_LINK_HOME: /
-#+html_link_up: ./index.html
+#+html_link_up: ../index.html
 #+LANGUAGE: zh
 
-#+options: ^:nil
-
-# #+OPTIONS: html-style:nil
+#+OPTIONS: html-style:t ^:nil
+#+startup: fold
 #+HTML_HEAD: <script type="text/javascript" src="/theme/main.js" defer></script>
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/theme/main.css"/>
 #+HTML_HEAD: <link rel="shortcut icon" href="/img/icon.jpg"/>
-
-#+LATEX_COMPILER: xelatex
-#+LATEX_HEADER: \usepackage[UTF8]{ctex}
-
-#+HTML_LINK_UP: ./index.html
