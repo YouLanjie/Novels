@@ -1,0 +1,11 @@
+{
+	"source_file": "../20260620_165445_source/out.org",
+	"title": "阿加莎·克里斯蒂作品集",
+	"setupfile": "./setup.setup",
+	"section_pattern": "^书\\s*名[\\s：]+(.*)",
+	"ban_section_pattern": "没有插图",
+	"comment": "全集还是太多了。。。。",
+	"process_unicode": true,
+	"strip": true,
+	"words": [ ]
+}
