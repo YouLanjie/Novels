@@ -1,0 +1,12 @@
+{
+	"title": "阿加莎·克里斯蒂作品集",
+	"author": "阿加莎·克里斯蒂",
+	"setting": {
+		"papersize": "b5paper"
+	},
+	"filelist": {
+		"../阿加莎·克里斯蒂/": {
+			"ignore": ["./index.org"]
+		}
+	}
+}
