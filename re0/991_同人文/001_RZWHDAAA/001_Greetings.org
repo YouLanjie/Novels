@@ -3,7 +3,7 @@
 
 * Greetings
 
-** ai中译
+# ** ai中译
 
 这非常重要：下文包含来自小说和动画未来剧情的剧透。这个故事充满了剧透，所以请务必注意。我建议大家都去阅读web小说直到第六章，并观看动画和OVA。
 
@@ -1085,7 +1085,7 @@
 
 链接： [[http://discord.gg/ytyVcNk9Tf]]
 
-** Chapter 1: Greetings - Edited Version (英语原文)
+* COMMENT Chapter 1: Greetings - Edited Version (英语原文)
 
 This is very important: Novels and Future Arcs from the Anime spoilers are below. This story is filled with spoilers, so please be aware of that. I'd advise you all to go and read the webnovel until Arc 6 and watch both the anime and the OVA's.
 

@@ -3,7 +3,7 @@
 
 * 第二季预告 / 来自欧德·拉格纳的问候
 
-** ai中译
+# ** ai中译
 
 *作者注：感谢ogkirko为这篇同人创作的所有TikTok视频。我看到一个视频里他说他在短视频内容创作者列表中推广了WHDAAA，我不得不承认这一点。祝福你享受我的作品。照顾好自己。*
 
@@ -1029,7 +1029,7 @@
 
 *希望你们喜欢我准备的内容。*
 
-** Chapter 16: Season 2 Teaser / Greetings From Od Laguna (英语原文)
+* COMMENT Chapter 16: Season 2 Teaser / Greetings From Od Laguna (英语原文)
 
 *AN: Thanks to ogkirko for all the tiktoks about the fanfic. I saw a
 video of him saying that he popularized WHDAAA on the shorts content
@@ -2896,9 +2896,9 @@ message left behind by the Od.
 
 *:)*
 
-/*Season 2 Episode 1... Arc Four's Intro...* /
+/*Season 2 Episode 1... Arc Four's Intro...*/
 
-/*Soon...* /
+/*Soon...*/
 
 ----------
 
