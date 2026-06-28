@@ -1,6 +1,7 @@
 #+title: re0-web仓库部分commit收集
 #+description: git仓库的commit也可以很有意思
 #+setupfile: ../../setup.setup
+#+html_link_up: ../index.html
 
 * WEB版翻译gitlog
 看评论是一种绝妙的行为(确信)

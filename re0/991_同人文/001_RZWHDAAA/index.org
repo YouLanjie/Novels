@@ -1,0 +1,56 @@
+#+title: re0同人文 WHDAAA 索引
+#+description: 内容来自网络(FanFiction)
+#+date: <2026-06-27 六 16:07>
+#+setupfile: ../../../setup.setup
+#+html_link_up: ../../index.html
+
+* 简介
+
+作品名：
+/Re:Zero Watching Him Die Again and Again/
+
+作者：
+Reactionist
+
+作者的话：
+What happens if Subaru's adventure was to be known to everyone? What would change? Spoilers for the anime and the novels. Special thanks to Wishful Witch on reddit for the cover art. Enjoy!
+
+体裁：
+观影体同人文
+
+* 转载资讯
+原作链接：[[https://www.fanfiction.net/s/13741563/1/Re-Zero-Watching-Him-Die-Again-and-Again]]
+
+由于使用pandoc，原文的居中属性会丢失(懒得手工补上了)
+
+注意：
+本同人作品《Re:Zero Watching Him Die Again and Again》暂未有公认简中名称和简中缩写，故暂时简写成《Re0:视昴死归》(WHDAAA看不懂思密达)
+
+#+begin_quote
+有现成人工简中翻译于LOFTER(乐乎)，但是web版不好用，嗯，所以不搬那里的翻译，不过还是附链接：
+- [[https://yangcongbingqilin.lofter.com/][洋葱冰淇淋]] (早期翻译维护)
+- [[http://www.lofter.com/front/blog/collection/share?collectionId=22718201][RE0:观影 - 文集]] (后期翻译维护)
+
+要是我觉得ai翻译太屎我会乖乖回去找正经翻译看的
+#+end_quote
+
+* 文件列表
+- [[./001_Greetings.html]]
+- [[./002_S1E1.html]]
+- [[./003_S1E2.html]]
+- [[./004_S1E3.html]]
+- [[./005_S1E4.html]]
+- [[./006_S1E5.html]]
+- [[./007_S1E6.html]]
+- [[./008_OVA1_Memory_Snow.html]]
+- [[./009_S1E7.html]]
+- [[./010_S1E8.html]]
+- [[./011_S1E9.html]]
+- [[./012_S1E10.html]]
+- [[./013_S1E11.html]]
+- [[./014_S1E12.html]]
+- [[./015_S1E13.html]]
+- [[./016_S2_Greetings.html]]
+- [[./017_S2E1.html]]
+- [[./018_S2E2.html]]
+- [[./019_S2E3.html]]
