@@ -2,9 +2,7 @@
 #+setupfile: ./setup.setup
 * 短篇集 8
 
-** 『Stand by me
-
-*** Pleiades』
+** 『Stand by me Pleiades』
 
 台版 转自 轻之国度
 
@@ -830,9 +828,7 @@
 
 《完》
 
-*** Pleiades
-
-**** 浪子回乡』
+** 『Stand by me Pleiades 浪子回乡』
 
 1
 
@@ -1644,7 +1640,7 @@
 
 《完》
 
-**** 佩特拉的男子汉交涉』
+** 『Stand by me Pleiades 佩特拉的男子汉交涉』
 
 1
 
@@ -3416,7 +3412,7 @@
 
 《完》
 
-**** 法兰黛莉卡的血之新娘』
+** 『Stand by me Pleiades 法兰黛莉卡的血之新娘』
 
 1
 
